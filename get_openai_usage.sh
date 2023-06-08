@@ -1,8 +1,8 @@
 #!/bin/bash
 
-config=$(cat config.yaml)
-openai_org_id=$(echo "$config" | yq -r '.openai_org_id')
-openai_api_key=$(echo "$config" | yq -r '.openai_api_key')
+config=$(cat config.json)
+openai_org_id=$(echo "$config" | jq -r '.openai_org_id')
+openai_api_key=$(echo "$config" | jq -r '.openai_api_key')
 
 first_day_of_month=$(gdate +%Y-%m-01)
 current_day=$(gdate +%Y-%m-%d)
