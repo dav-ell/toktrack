@@ -35,7 +35,7 @@ for user in users:
     daily_costs = {}  # Dictionary to store daily costs
 
     current_date = first_day_of_month
-    while current_date < current_day:
+    while current_date <= current_day:
         usage_headers = {
             "method": "GET",
             "authority": "api.openai.com",
