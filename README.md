@@ -6,7 +6,7 @@ Usage:
  2. Get your organization ID from here: https://platform.openai.com/account/org-settings
  3. Get your API key from here: https://platform.openai.com/account/api-keys
  4. Put those in the `config.json` file.
- 5. Run `python3 get_openai_usage.py`
+ 5. Run `python3 usage.py`
  6. A JSON file will be created for each user in your organization, with contents like this:
 
 ```json
