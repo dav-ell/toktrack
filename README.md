@@ -1,4 +1,4 @@
-# toktrack
+# toktrack [deprecated]
 Scripts to monitor your organization's OpenAI API token usage and cost per user.
 
 Usage:
